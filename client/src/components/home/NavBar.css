@@ -1,0 +1,19 @@
+/* NavBar.css */
+.nav-item {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: blue;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 10px;
+  background-color: #f3f3f3;
+}
